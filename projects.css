@@ -1,0 +1,14 @@
+/* =========================================================
+   projects.css: grouped repository cards
+   ========================================================= */
+
+.group{font:500 15px var(--mono);color:var(--muted);margin:0 0 14px}
+.group + .projects{margin-bottom:40px}
+.projects{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.project{display:flex;flex-direction:column;padding:22px;border:1px solid var(--line);border-radius:14px;background:var(--deep);color:var(--text)}
+.project:hover{text-decoration:none;border-color:var(--cyan)}
+.project h3{font:600 17px var(--mono);color:var(--cyan)}
+.project p{color:var(--muted);font-size:15px;margin:8px 0 16px;flex:1}
+.project .meta{display:flex;gap:16px;font:400 13px var(--mono);color:var(--muted)}
+.project .tag{color:var(--violet-text)}
+.more{margin-top:8px}

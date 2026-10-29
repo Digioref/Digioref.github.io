@@ -1,0 +1,13 @@
+/* =========================================================
+   skills.css: badge groups and spoken languages
+   ========================================================= */
+
+.skills{display:grid;gap:30px}
+.skills h3{font:500 15px var(--mono);color:var(--muted);margin-bottom:12px}
+.badges{display:flex;flex-wrap:wrap;gap:8px}
+.badges img{height:28px}
+
+.langs{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:8px}
+.lang{padding:18px 22px;border:1px solid var(--line);border-radius:14px}
+.lang h4{font:600 17px var(--sans)}
+.lang p{color:var(--muted);font-size:15px}
